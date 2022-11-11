@@ -92,7 +92,7 @@ def new_fed(update: Update, context: CallbackContext):
         x = sql.new_fed(user.id, fed_name, fed_id)
         if not x:
             update.effective_message.reply_text(
-                "Can't federate! Please contact @trtechguide if the problem persist."
+                "Can't federate! Please contact @indianunitedsupport if the problem persist."
             )
             return
 
@@ -258,7 +258,7 @@ def join_fed(update: Update, context: CallbackContext):
         x = sql.chat_join_fed(args[0], chat.title, chat.id)
         if not x:
             message.reply_text(
-                "Failed to join federation! Please contact @OnePunchSupport should this problem persist!"
+                "Failed to join federation! Please contact @indianunitedsupport should this problem persist!"
             )
             return
 
@@ -665,7 +665,7 @@ def fed_ban(update: Update, context: CallbackContext):
         )
         if not x:
             message.reply_text(
-                "Failed to ban from the federation! If this problem continues, contact @OnePunchSupport."
+                "Failed to ban from the federation! If this problem continues, contact @indianunitedsupport."
             )
             return
 
@@ -1213,7 +1213,7 @@ def set_frules(update: Update, context: CallbackContext):
         x = sql.set_frules(fed_id, markdown_rules)
         if not x:
             update.effective_message.reply_text(
-                "Whoa! There was an error while setting federation rules! If you wondered why please ask it in @OnePunchSupport !"
+                "Whoa! There was an error while setting federation rules! If you wondered why please ask it in @indianunitedsupport !"
             )
             return
 
@@ -2389,7 +2389,7 @@ Feds are now divided into 3 sections for your ease.
 ✪ /fedownerhelp*:* Provides help for fed creation and owner only commands
 ✪ /fedadminhelp*:* Provides help for fed administration commands
 ✪ /feduserhelp*:* Provides help for commands anyone can use
-
+made with ❤️ by @indianunited
 """
 
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed)

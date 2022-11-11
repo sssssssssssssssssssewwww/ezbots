@@ -381,7 +381,7 @@ __help__ = """
  Note that files / photos cannot be imported due to telegram restrictions.
 
  ✪ `/export`: Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
-
+made with ❤️ by @indianunited
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data)

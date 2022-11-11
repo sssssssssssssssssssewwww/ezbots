@@ -63,8 +63,8 @@ from Amanda.modules.helper_funcs.misc import paginate_modules
 from Amanda.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝓐𝓶𝓪𝓷𝓭𝓪
-I'm a Powerful group manager bot With Cool Modules. Made by [𝕿𝖍𝖆𝖗𝖚𝖐 𝕽𝖊𝖓𝖚𝖏𝖆• 🇱🇰](https://t.me/TharukRenuja)
+Hello there, I'm United Bot
+I'm a Powerful group manager bot With Advanced Modules. Made by [Indianunited bots](https://t.me/indianunited)
 Hit /help to find my list of available commands
  
 """
@@ -72,32 +72,32 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/SLBotsofficial"
+            text="📢Updates Channel", url="https://t.me/indianunited"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/trtechguide"
+            text="👥 Support Group", url="https://t.me/indianunitedsupport"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="📜Source", url="https://github.com/TR-TECH-GUIDE/Amanda"
+            text="📜Source", url="https://r.mtdv.me/articles/united-bot"
         ),
         InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheAmandabot?start=help"
+            text="❔ Help", url="http://t.me/Group_manager_zbot?start=help"
         ),
     ],
     [
         InlineKeyboardButton(
             text="➕ Add Amanda to your group ➕",
-            url="t.me/TheAmandabot?startgroup=true",
+            url="t.me/Group_manager_zbot?startgroup=true",
         ),
     ],
 ]
 
-Amanda_IMG = "https://telegra.ph/file/04d73369440abc48ab3ce.png"
+Amanda_IMG = "https://graph.org/file/e2025615fc5e82d42995c.png"
 
 HELP_STRINGS = f"""
-*Main Commands :* [👩](https://telegra.ph/file/04d73369440abc48ab3ce.png)
+*Main Commands :* [HElp](https://graph.org/file/e2025615fc5e82d42995c.png)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Tharuk Renuja](https://t.me/TharukRenuja)"""
+Support them  [Creator](https://t.me/mr_heckers)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -373,8 +373,8 @@ def Amanda_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Amanda Updates.* "
-            f"\n\n Join [SLBotsofficial](https://t.me/SLBotsofficial) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Indian united Bots.* "
+            f"\n\n Join [Indianunited bots](https://t.me/Indianunited) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -407,7 +407,7 @@ def Amanda_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [TRTECHGUIDE](https://t.me/trtechguide).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [united support](https://t.me/indianunitedsupport).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -425,8 +425,8 @@ def Amanda_about_callback(update, context):
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Raya for the best performance.*"
-            f"\n\nBased on [Amanda's Brother](https://t.me/trtechguidebot)."
+            text=f"*{dispatcher.bot.first_name} Is the redisigned version of United for the best performance.*"
+            f"\n\nBased on [My brother](https://t.me/group_manager_zbot)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by Tharuk Renuja"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,

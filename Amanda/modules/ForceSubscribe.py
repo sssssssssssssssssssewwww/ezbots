@@ -210,7 +210,7 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 ❂ /ForceSubscribe clear - To unmute all members who muted by me.
 
 Note: /FSub is an alias of /ForceSubscribe
-
+made with ❤️ by @indianunited
  
 """
 __mod_name__ = "Force Subscribe"

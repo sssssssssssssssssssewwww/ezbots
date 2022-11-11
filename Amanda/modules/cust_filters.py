@@ -629,6 +629,7 @@ doin?
 
 *Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
 Check `/markdownhelp` to know more!
+made with ❤️ by @indianunited
 
 """
 

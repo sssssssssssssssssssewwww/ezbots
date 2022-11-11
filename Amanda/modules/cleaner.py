@@ -239,6 +239,7 @@ __help__ = """
  *Following are Disasters only commands, admins cannot use these:*
  ✪ /gignoreblue <word>*:* globally ignores bluetext cleaning of saved word across Suzuya.
  ✪ /ungignoreblue <word>*:* remove said command from global cleaning list
+ made with ❤️ by @indianunited
 """
 
 SET_CLEAN_BLUE_TEXT_HANDLER = CommandHandler("cleanblue", set_blue_text_must_click)

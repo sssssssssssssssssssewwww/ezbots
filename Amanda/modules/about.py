@@ -1,5 +1,5 @@
 __help__ = """
-** Amanda - A Powerful Telegram Group Manager 🎶 **
+** United - A Advanced Telegram Group Manager 🎶 **
 
 Powerful Abilities
 
@@ -9,6 +9,6 @@ Powerful Abilities
 
 • Youtube Downloader 🎵
 
-Developer [𝕿𝖍𝖆𝖗𝖚𝖐 𝕽𝖊𝖓𝖚𝖏𝖆](https://t.me/TharukRenuja)
+Developer [indian united](https://t.me/indianunited)
 """
 __mod_name__ = "About"

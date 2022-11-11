@@ -379,6 +379,7 @@ __help__ = """
  
  _NOTE:_
  If you set Log Channels, you will get logs of Silent mutes. Check *Logger* module to know more about Log Channel.
+made with ❤️ by @indianunited
 """
 
 MUTE_HANDLER = CommandHandler("mute", mute)

@@ -268,6 +268,7 @@ __help__ = """
  ➩ /music <songname artist(optional)>: uploads the song in it's best quality available
 
  ➩ /vsong <songname artist(optional)>: uploads the video song in it's best quality available
+ made with ❤️ by @indianunited
 """
 
 __mod_name__ = "Songs"

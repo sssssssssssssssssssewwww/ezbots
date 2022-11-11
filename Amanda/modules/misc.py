@@ -652,7 +652,9 @@ __help__ = """
 *➩Time and Weather:*
   ✪ /time <query>: Gives information about a timezone.
   ✪ /weather <city>: Gets weather information of particular place!
+  
 \
+    made with ❤️ by @indianunited
 """
 
 __mod_name__ = "Miscs"

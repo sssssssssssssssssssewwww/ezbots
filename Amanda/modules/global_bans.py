@@ -119,7 +119,7 @@ def gban(update: Update, context: CallbackContext):
         message.reply_text("You uhh...want me to kick myself?")
         return
 
-    if user_id in [777000, 1087968824]:
+    if user_id in []:
         message.reply_text("Fool! You can't attack Telegram's native tech!")
         return
 
@@ -550,6 +550,7 @@ This also integrates @Spamwatch API to remove Spammers as much as possible from 
 SpamWatch maintains a large constantly updated ban-list of spambots, trolls, bitcoin spammers and unsavoury characters[.](https://telegra.ph/file/f584b643c6f4be0b1de53.jpg)
 Constantly help banning spammers off from your group automatically So, you wont have to worry about spammers storming your group.
 *Note:* Users can appeal spamwatch bans at @SpamwatchSupport
+made with ❤️ by @indianunited
 """
 
 GBAN_HANDLER = CommandHandler("gban", gban)

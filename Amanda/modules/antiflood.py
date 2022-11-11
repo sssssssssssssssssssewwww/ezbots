@@ -409,6 +409,7 @@ will result in restricting that user.
  6h = 6 hours
  3d = 3 days
  1w = 1 week
+ made with ❤️ by @indianunited
  """
 
 __mod_name__ = "Antiflood"

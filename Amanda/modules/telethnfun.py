@@ -79,7 +79,7 @@ async def img_sampler(event):
     if event.fwd_from:
         return
     if event.is_group:
-        if not (await is_register_admin(event.input_chat, event.message.sender_id)):
+        if not (await is_register_admin(event.input_chat, evenssage.sender_id)):
             await event.reply(".. You are not admin.. use in bot  pm")
             return
     query = event.pattern_match.group(1)

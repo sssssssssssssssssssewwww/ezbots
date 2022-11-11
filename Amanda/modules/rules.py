@@ -124,6 +124,7 @@ __help__ = """
 *Admins only:*
  ✪ /setrules <your rules here>*:* set the rules for this chat.
  ✪ /clearrules*:* clear the rules for this chat.
+ made with ❤️ by @indianunited
 """
 
 __mod_name__ = "Rules"

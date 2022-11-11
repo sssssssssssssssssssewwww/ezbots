@@ -269,6 +269,7 @@ Tagger is an essential feature to mention all subscribed members in the group. A
 - /untagall: clears all subscribed members. 
 - /addtag <userhandle>: add a user to chat tag list. (via handle, or reply)
 - /removetag <userhandle>: remove a user to chat tag list. (via handle, or reply)
+made with ❤️ by @indianunited
 """
 
 TAG_ALL_HANDLER = DisableAbleCommandHandler("tagall", tagall, filters=Filters.group)

@@ -81,6 +81,7 @@ __help__ = """
  ✪ /song <songname artist(optional)>*:* uploads the song in it's best quality available
  ✪ /video <songname artist(optional)>*:* uploads the video song in it's best quality available
  ✪ /lyrics <song>*:* returns the lyrics of that song.
+ made with ❤️ by @indianunited
 """
 
 __mod_name__ = "Music"

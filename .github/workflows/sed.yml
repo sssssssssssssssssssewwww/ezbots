@@ -16,6 +16,6 @@ jobs:
           commit_message: 'Welcome to Amanda'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: TR-TECH-GUIDE
-          commit_user_email: tharukrenujatechguide@gmail.com
-          commit_author: TR-TECH-GUIDE <tharukrenujatechguide@gmail.com>
+          commit_user_name: Sanjaykanth
+          commit_user_email: rajendiransanjay@gmail.com
+          commit_author: indianunited

@@ -308,7 +308,7 @@ def info(update: Update, context: CallbackContext):
 
     if disaster_level_present:
 
-        text += ' [<a href="https://t.me/SuzuyaUpdates/55">?</a>]'.format(bot.username)
+        text += ' [<a href="https://t.me/indianunited/22">?</a>]'.format(bot.username)
 
     try:
         user_member = chat.get_member(user.id)
@@ -488,7 +488,7 @@ def set_about_bio(update: Update, context: CallbackContext):
 
         if user_id == bot.id and sender_id not in DEV_USERS:
             message.reply_text(
-                "Erm... yeah, I only trust Heroes Association to set my bio."
+                "Erm... yeah, I only trust United Association to set my bio."
             )
             return
 
@@ -548,7 +548,8 @@ Examples:
  • `/info`*:* get information about a user. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/OnePunchUpdates/192)
+ Come and see [HP System explained](https://t.me/indianunited/23)
+ made with ❤️ by @indianunited
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)

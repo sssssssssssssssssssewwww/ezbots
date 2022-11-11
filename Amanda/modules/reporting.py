@@ -273,6 +273,7 @@ __help__ = """
  ✪ /reports <on/off>*:* change report setting, or view current status.
    • If done in pm, toggles your status.
    • If in group, toggles that groups's status.
+   made with ❤️ by @indianunited
 """
 
 SETTING_HANDLER = CommandHandler("reports", report_setting)
